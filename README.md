@@ -3,7 +3,7 @@ boteye_ros package<br>
 基于boteye驱动程序[接口](https://github.com/baidu/boteye_driver)写的ros节点,可以将相机返回的图像（未矫正）和IMU数据以topic的形式发布出来。<br>
 * /boteye/left/image_color_raw<br>
 * /boteye/right/image_color_raw <br>
-* /imu/data_raw<br>
+* /boteye/imu/data_raw<br>
 ## 安装依赖库
 * OpenCV (>3.0)<br>
 * Glog: sudo apt-get install libgflags-dev<br>
