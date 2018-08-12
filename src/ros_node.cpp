@@ -98,7 +98,7 @@ struct ImgForShow {
     }
 
     return ros::Time(
-        soft_time_begin + (_hard_time - hard_time_begin) * 0.00001f);
+        soft_time_begin + (_hard_time - hard_time_begin) * 0.0001f);
   }
 
 XPDRIVER::shared_queue<XPDRIVER::ImuData> imu_data_queue("imu_data_queue");

@@ -317,7 +317,7 @@ void XpSensorMultithread::thread_pull_imu() {
     XPDRIVER::ScopedLoopProfilingTimer pull_imu_profiling_timer(
       "XpSensorMultithread::thread_pull_imu", 1);
     // sleep to get ~100 Hz rate
-    std::this_thread::sleep_for(std::chrono::microseconds(9900));
+    std::this_thread::sleep_for(std::chrono::microseconds(4950));
 
     XP_20608_data imu_data;
     bool imu_access_ok = (XP_SENSOR::IMU_DataAccess(video_sensor_file_id_, &imu_data));
