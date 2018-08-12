@@ -21,3 +21,6 @@ boteye_ros package<br>
 已经将相机的时间转化为ros::time形式。
 ## 增益调节
 图像窗口下，按键+和]为增大增益，图像变亮，按键-和\[为减少增益。
+## Timestamp test
+![](https://github.com/Markbess/boteye_ros/blob/master/timestamp_test/image.png)<br>
+![](https://github.com/Markbess/boteye_ros/blob/master/timestamp_test/imu.png)
