@@ -23,4 +23,6 @@ boteye_ros package<br>
 图像窗口下，按键+和]为增大增益，图像变亮，按键-和\[为减少增益。
 ## Timestamp test
 ![](https://github.com/Markbess/boteye_ros/blob/master/timestamp_test/image.png)<br>
+Image(fps 25)<br>
 ![](https://github.com/Markbess/boteye_ros/blob/master/timestamp_test/imu.png)
+IMU(100Hz).
