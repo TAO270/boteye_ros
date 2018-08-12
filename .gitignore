@@ -1,0 +1,6 @@
+##ignore this file##
+build
+bin
+*.kdev4
+.kdev4
+*.*~
