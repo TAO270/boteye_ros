@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/mark/boteye_ros/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\\\"boteye_ros\\\" -D__DEVELOPMENT_DEBUG_MODE__ -I/home/mark/boteye_ros/include -isystem /usr/local/include -isystem /usr/local/include/opencv -I/opt/ros/indigo/include  -std=c++11 -Wno-deprecated-declarations   -O3 -DNDEBUG   -mssse3 -o CMakeFiles/ros_node.dir/src/ros_node.cpp.o -c /home/mark/boteye_ros/src/ros_node.cpp",
+  "file": "/home/mark/boteye_ros/src/ros_node.cpp"
+},
+{
+  "directory": "/home/mark/boteye_ros/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\\\"boteye_ros\\\" -D__DEVELOPMENT_DEBUG_MODE__ -I/home/mark/boteye_ros/include -isystem /usr/local/include -isystem /usr/local/include/opencv -I/opt/ros/indigo/include  -std=c++11 -Wno-deprecated-declarations   -O3 -DNDEBUG   -mssse3 -o CMakeFiles/ros_node.dir/src/XP_sensor.cc.o -c /home/mark/boteye_ros/src/XP_sensor.cc",
+  "file": "/home/mark/boteye_ros/src/XP_sensor.cc"
+},
+{
+  "directory": "/home/mark/boteye_ros/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\\\"boteye_ros\\\" -D__DEVELOPMENT_DEBUG_MODE__ -I/home/mark/boteye_ros/include -isystem /usr/local/include -isystem /usr/local/include/opencv -I/opt/ros/indigo/include  -std=c++11 -Wno-deprecated-declarations   -O3 -DNDEBUG   -mssse3 -o CMakeFiles/ros_node.dir/src/XP_sensor_driver.cc.o -c /home/mark/boteye_ros/src/XP_sensor_driver.cc",
+  "file": "/home/mark/boteye_ros/src/XP_sensor_driver.cc"
+},
+{
+  "directory": "/home/mark/boteye_ros/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\\\"boteye_ros\\\" -D__DEVELOPMENT_DEBUG_MODE__ -I/home/mark/boteye_ros/include -isystem /usr/local/include -isystem /usr/local/include/opencv -I/opt/ros/indigo/include  -std=c++11 -Wno-deprecated-declarations   -O3 -DNDEBUG   -mssse3 -o CMakeFiles/ros_node.dir/src/v4l2.cc.o -c /home/mark/boteye_ros/src/v4l2.cc",
+  "file": "/home/mark/boteye_ros/src/v4l2.cc"
+},
+{
+  "directory": "/home/mark/boteye_ros/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\\\"boteye_ros\\\" -D__DEVELOPMENT_DEBUG_MODE__ -I/home/mark/boteye_ros/include -isystem /usr/local/include -isystem /usr/local/include/opencv -I/opt/ros/indigo/include  -std=c++11 -Wno-deprecated-declarations   -O3 -DNDEBUG   -mssse3 -o CMakeFiles/ros_node.dir/src/helper/timer.cc.o -c /home/mark/boteye_ros/src/helper/timer.cc",
+  "file": "/home/mark/boteye_ros/src/helper/timer.cc"
+},
+{
+  "directory": "/home/mark/boteye_ros/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\\\"boteye_ros\\\" -D__DEVELOPMENT_DEBUG_MODE__ -I/home/mark/boteye_ros/include -isystem /usr/local/include -isystem /usr/local/include/opencv -I/opt/ros/indigo/include  -std=c++11 -Wno-deprecated-declarations   -O3 -DNDEBUG   -mssse3 -o CMakeFiles/ros_node.dir/src/helper/counter_32_to_64.cc.o -c /home/mark/boteye_ros/src/helper/counter_32_to_64.cc",
+  "file": "/home/mark/boteye_ros/src/helper/counter_32_to_64.cc"
+},
+{
+  "directory": "/home/mark/boteye_ros/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\\\"boteye_ros\\\" -D__DEVELOPMENT_DEBUG_MODE__ -I/home/mark/boteye_ros/include -isystem /usr/local/include -isystem /usr/local/include/opencv -I/opt/ros/indigo/include  -std=c++11 -Wno-deprecated-declarations   -O3 -DNDEBUG   -mssse3 -o CMakeFiles/ros_node.dir/src/helper/basic_image_utils.cc.o -c /home/mark/boteye_ros/src/helper/basic_image_utils.cc",
+  "file": "/home/mark/boteye_ros/src/helper/basic_image_utils.cc"
+},
+{
+  "directory": "/home/mark/boteye_ros/build/gtest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -D__DEVELOPMENT_DEBUG_MODE__ -Dgtest_main_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -Wno-deprecated-declarations   -O3 -DNDEBUG -fPIC   -mssse3 -std=c++11 -Wno-deprecated-declarations   -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "file": "/usr/src/gtest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/mark/boteye_ros/build/gtest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -D__DEVELOPMENT_DEBUG_MODE__ -Dgtest_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -Wno-deprecated-declarations   -O3 -DNDEBUG -fPIC   -mssse3 -std=c++11 -Wno-deprecated-declarations   -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -Wno-deprecated-declarations   -O3 -DNDEBUG  -shared -Wl,-soname,libgtest_main.so -o /home/mark/boteye_ros/lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -L/home/mark/boteye_ros/build/gtest/src -Wl,-rpath,/home/mark/boteye_ros/build/gtest/src:/home/mark/boteye_ros/lib -lpthread /home/mark/boteye_ros/lib/libgtest.so -lpthread 

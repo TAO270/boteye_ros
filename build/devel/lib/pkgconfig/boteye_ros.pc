@@ -1,0 +1,8 @@
+prefix=/home/mark/boteye_ros/build/devel
+
+Name: boteye_ros
+Description: Description of boteye_ros
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/mark/boteye_ros/build/devel/lib 
+Requires: 

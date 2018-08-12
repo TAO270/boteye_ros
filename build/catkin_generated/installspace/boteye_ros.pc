@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: boteye_ros
+Description: Description of boteye_ros
+Version: 0.0.1
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 
