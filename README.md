@@ -25,4 +25,4 @@ boteye_ros package<br>
 ![](https://github.com/Markbess/boteye_ros/blob/master/timestamp_test/image.png)<br>
 Image(fps 25)<br>
 ![](https://github.com/Markbess/boteye_ros/blob/master/timestamp_test/imu.png)<br>
-IMU(100Hz
+IMU(100Hz)
