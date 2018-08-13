@@ -10,12 +10,12 @@ boteye_ros package<br>
 * GFlags: sudo apt-get isntall libgoogle-glog-dev<br>
 如果ROS使用的是indigo版本，建议手动安装oepncv3.0版本以上的cv_bridge（[地址](https://github.com/ros-perception/vision_opencv)）<br>
 
-    git clone https://github.com/ros-perception/vision_opencv.git
-    cd vision_opencv & cd cv_bridge
-    mkdir build & cd build
-    cmake ..
-    make 
-    sudo make install
+        git clone https://github.com/ros-perception/vision_opencv.git
+        cd vision_opencv & cd cv_bridge
+        mkdir build & cd build
+        cmake ..
+        make 
+        sudo make install
         
 ## 编译
     cd boteye_ros
