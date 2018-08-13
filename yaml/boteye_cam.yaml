@@ -1,0 +1,16 @@
+#XPIAC3SET181860****
+cam0:
+  cam_overlaps: []
+  camera_model: pinhole
+  distortion_coeffs: [-0.420815, 0.141110, -0.001619, -0.001195]
+  distortion_model: radtan
+  intrinsics: [409.480109, 408.452150, 318.923709, 233.157712]
+  resolution: [640, 480]
+  rostopic: /boteye/left/image_color_raw
+  timeshift_cam_imu: 0
+  T_cam_imu:
+  - [1.0, 0.0, 0.0, 0.0]
+  - [0.0, 1.0, 0.0, 0.0]
+  - [0.0, 0.0, 1.0, 0.0]
+  - [0.0, 0.0, 0.0, 1.0]
+

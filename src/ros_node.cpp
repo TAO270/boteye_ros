@@ -779,7 +779,7 @@ int main(int argc, char** argv) {
         {
         std_msgs::Header img_header;
         img_header.frame_id="image";
-        img_header.stamp=hardTimeToSoftTime( temp.ts_100us);
+        img_header.stamp=hardTimeToSoftTime( temp.ts_100us);	
         sensor_msgs::ImagePtr msg_left=cv_bridge::CvImage(img_header, "bgr8", temp.l).toImageMsg();
         sensor_msgs::ImagePtr msg_right=cv_bridge::CvImage(img_header, "bgr8", temp.r).toImageMsg();
         pub_left.publish(msg_left);
