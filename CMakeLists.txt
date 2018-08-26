@@ -86,7 +86,7 @@ endif()
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake/Modules/") 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
-set(CATKIN_GLOBAL_BIN_DESTINATION ${PROJECT_SOURCE_DIR}/bin)
+
 
 set(CMAKE_BUILD_TYPE "Release")
 set(cv_bridge_DIR /usr/local/share/cv_bridge/cmake )
@@ -100,12 +100,12 @@ roscpp
 std_msgs 
 sensor_msgs 
 )
-catkin_package(
+#catkin_package(
 #INCLUDE_DIRS ${PROJECT_SOURCE_DIR}/include/
 #LIBRARIES boteye_ros
 #CATKIN_DEPENDS roscpp std_msgs 
 #DEPENDS system_lib
-)
+#)
 
 include_directories(
   ${PROJECT_SOURCE_DIR}/include/
